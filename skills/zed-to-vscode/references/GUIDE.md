@@ -20,7 +20,7 @@ Panduan ini menjelaskan pemakaian script mandiri, pemasangan skill Hermes dari Z
 | Branch/worktree | Nama branch, ikon status branch, dan nama worktree di title bar |
 | Word wrap | `soft_wrap: editor_width` untuk membungkus tampilan sesuai lebar editor |
 | Navigasi | Ikon tab, breadcrumbs, minimap, nomor baris, indent guides |
-| Ukuran font | UI 13, editor dan terminal 14 |
+| Ukuran font | UI, editor, dan terminal 12 |
 
 Yang tidak dilakukan:
 

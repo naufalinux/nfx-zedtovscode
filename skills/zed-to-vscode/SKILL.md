@@ -45,7 +45,7 @@ Read `references/GUIDE.md` for the Indonesian step-by-step script guide, ZIP/TAR
 
 The script installs pinned theme-only extensions `vscode-dark-plus` 0.0.1 and `vscode-icons` 13.0.0. It selects `VScode Dark Plus` and `VSCode Icons for Zed (Dark)`.
 
-It enables VSCode keybindings; left Explorer/Git/Outline; bottom terminal/agent; tabs with icons; breadcrumbs; minimap; line numbers; indent guides; and `soft_wrap: editor_width`. UI font size is 13 and editor font size is 14. Existing font families, unrelated configuration, credentials, and agent permissions remain unchanged. JSONC comments are removed when settings are rewritten, but the original file is backed up exactly.
+It enables VSCode keybindings; left Explorer/Git/Outline; bottom terminal/agent; tabs with icons; breadcrumbs; minimap; line numbers; indent guides; and `soft_wrap: editor_width`. UI, editor, and terminal font sizes are all 12. Existing font families, unrelated configuration, credentials, and agent permissions remain unchanged. JSONC comments are removed when settings are rewritten, but the original file is backed up exactly.
 
 The `title_bar` settings explicitly enable `show_branch_name`, `show_branch_status_icon`, `show_worktree_name`, and `show_project_items`. Git indicators are at the top in Zed, not at VS Code's bottom-left position.
 

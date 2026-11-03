@@ -36,7 +36,7 @@ Buka Zed kembali secara manual. Script membackup settings existing sebelum mengu
 - 🗂️ Explorer/Git/Outline di kiri; terminal/agent di bawah.
 - 🌿 Indikator branch/worktree di title bar atas, membutuhkan repo Git valid.
 - ↩️ Word wrap mengikuti lebar editor, minimap, breadcrumbs, ikon tab, nomor baris, dan indent guides.
-- 🔤 Font UI 13 dan editor/terminal 14; font family existing dipertahankan.
+- 🔤 Font UI, editor, dan terminal 12; font family existing dipertahankan.
 
 Bukan pixel-perfect VS Code. Pengaturan target ditimpa sesuai preset; key unrelated dipertahankan. Komentar JSONC hilang saat rewrite, tetapi backup asli utuh. Script tidak melakukan `git init`, fetch/pull, membuka editor, atau restart layanan.
 
