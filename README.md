@@ -4,6 +4,12 @@
 
 Script dan skill Hermes untuk menata Zed di Linux agar menyerupai VS Code—tanpa GUI automation atau restart desktop.
 
+## Preview
+
+![Tampilan Zed dengan tema gelap, ikon file, Explorer di kiri, editor dan minimap di tengah, terminal bawah, serta panel agent di kanan](docs/images/zed-vscode-layout.png)
+
+Contoh tampilan pada desktop pengguna. Panel agent pada screenshot tampil di kanan; preset script menempatkannya di bawah. Tampilan dapat berbeda mengikuti workspace dan pengaturan lokal. Screenshot menampilkan antarmuka dan aset pihak ketiga yang tetap tunduk pada hak upstream masing-masing.
+
 ## Prasyarat
 
 - Zed sudah terpasang.
