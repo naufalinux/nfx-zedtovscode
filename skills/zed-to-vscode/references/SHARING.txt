@@ -1,0 +1,38 @@
+Zed to VS Code — Hermes skill
+Version: 0.1.0
+Requirements: Linux, Zed, Python 3.12+, curl.
+
+INSTALL FROM SHARED ZIP
+1. Inspect the archive before installation. It should contain only the
+   zed-to-vscode directory, SKILL.md, scripts, this README and license.
+2. In your terminal, create the skill destination:
+   mkdir -p "${HERMES_HOME:-$HOME/.hermes}/skills/software-development"
+3. Extract without replacing existing files:
+   unzip -n zed-to-vscode-0.1.0.zip -d "${HERMES_HOME:-$HOME/.hermes}/skills/software-development"
+   If a previous copy already exists, compare versions first; do not mix files.
+4. Start a new Hermes session and ask:
+   "Use the zed-to-vscode skill to configure Zed like VS Code."
+
+MANUAL USE (no Hermes required)
+From the extracted zed-to-vscode directory:
+   python3 scripts/zed-to-vscode.py --dry-run
+   python3 scripts/test_setup.py
+   python3 scripts/zed-to-vscode.py
+
+Close Zed manually before applying; reopen it yourself afterward.
+No GUI automation, desktop/session restart, Git modification, credentials,
+private settings, or personal backups are included in this package.
+
+The original settings are backed up before changes. Existing unrelated
+values are preserved, but JSONC comments are removed in the rewritten file.
+To undo, close Zed and restore the exact backup reported by the script.
+
+Extensions are downloaded from api.zed.dev on first use. Extension artwork
+and themes retain their upstream licenses; they are not bundled here.
+
+Pinned extensions:
+  vscode-dark-plus 0.0.1 — https://github.com/d1y/vscode_dark_plus.zed
+  vscode-icons 13.0.0 — https://github.com/vscode-icons/vscode-icons-zed
+
+Zed's branch/worktree indicator appears in the title bar and requires a real
+Git repository. This layout is similar to VS Code, not pixel-identical.
