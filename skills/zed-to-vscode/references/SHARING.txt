@@ -1,4 +1,9 @@
 Zed to VS Code — Hermes skill
+SPDX-License-Identifier: GPL-3.0-or-later
+Copyright (c) 2026 Naufalinux
+Original code/docs: GPL-3.0-or-later. Prior MIT grants remain valid.
+Third-party extensions retain their own terms. The Dark Plus port license
+is unresolved; do not bundle/relicense it or claim complete clearance.
 Version: 0.1.0
 Requirements: Linux, Zed, Python 3.12+, curl.
 

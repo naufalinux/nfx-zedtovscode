@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: GPL-3.0-or-later
+# Copyright (c) 2026 Naufalinux
 """Configure Zed with a VS Code-like layout without GUI automation.
 
 Usage: python3 zed-to-vscode.py [--config-dir PATH] [--data-dir PATH] [--dry-run]

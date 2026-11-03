@@ -1,5 +1,9 @@
 # Zed to VS Code — Dokumentasi dan Panduan
 
+<!-- SPDX-License-Identifier: GPL-3.0-or-later -->
+
+Copyright (c) 2026 Naufalinux. Source, skill, dan dokumentasi original revisi ini: GPL-3.0-or-later. Grant MIT revisi lama tetap diakui. Komponen eksternal tidak ikut direlisensikan. Lisensi port Dark Plus 0.0.1 belum terkonfirmasi; jangan membundel assets atau menganggap seluruh dependency chain telah clear. Lihat `LICENSING.md` dan `LICENSE-AUDIT.md` di root repository untuk temuan, cakupan, dan notices.
+
 Skill/script versi 0.1.0 • Linux • Bahasa Indonesia
 
 Panduan ini menjelaskan pemakaian script mandiri, pemasangan skill Hermes dari ZIP/TAR atau clone Git, verifikasi, rollback, dan troubleshooting. Script menata Zed agar menyerupai VS Code; bukan mengubah Zed menjadi VS Code atau menjamin tampilan identik.

@@ -3,7 +3,7 @@ name: zed-to-vscode
 description: "Use when styling Zed like VS Code on Linux."
 version: 0.1.0
 author: Naufalinux, Hermes Agent
-license: MIT
+license: GPL-3.0-or-later
 platforms: [linux]
 metadata:
   hermes:
@@ -11,6 +11,8 @@ metadata:
 ---
 
 # Zed to VS Code
+
+Copyright (c) 2026 Naufalinux. Original skill/source/documentation: GPL-3.0-or-later. See `references/LICENSE.txt`. External extensions retain upstream terms; the Dark Plus port's license is unresolved. The GPL label does not clear or relicense external assets.
 
 Configure a VS Code-like Zed layout using file edits and theme-only extensions. Do not automate the desktop, launch Zed, or restart any session or service.
 

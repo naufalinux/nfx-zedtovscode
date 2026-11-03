@@ -1,5 +1,7 @@
 # nfx-zedtovscode
 
+<!-- SPDX-License-Identifier: GPL-3.0-or-later -->
+
 Script dan skill Hermes untuk menata Zed di Linux agar menyerupai VS Code—tanpa GUI automation atau restart desktop.
 
 ## Prasyarat
@@ -92,4 +94,8 @@ Tes offline memakai direktori terisolasi dan fixture extension, bukan settings p
 
 ## Keamanan dan lisensi
 
-Tidak menyertakan credentials, konfigurasi pribadi Zed/Hermes, session, logs, atau backup settings. Jangan commit file tersebut saat berkontribusi. MIT untuk script/dokumentasi; tema/icon yang diunduh tetap mengikuti lisensi upstream.
+Tidak menyertakan credentials, konfigurasi pribadi Zed/Hermes, session, logs, atau backup settings. Jangan commit file tersebut saat berkontribusi.
+
+Source, skill, tes, dan dokumentasi original revisi ini: **GPL-3.0-or-later**. Lihat [LICENSE](LICENSE), [LICENSING.md](LICENSING.md), dan [LICENSE-AUDIT.md](LICENSE-AUDIT.md). Grant MIT revisi awal tetap berlaku bagi salinan/revisi lama; komponen pihak ketiga tidak ikut direlisensikan.
+
+**Temuan terbuka:** lisensi port `vscode-dark-plus` 0.0.1 belum terkonfirmasi. Installer masih mengunduhnya terpisah; jangan membundel atau menyatakan extension tersebut sudah license-cleared. VSCode Icons memiliki notice MIT upstream, tetapi artwork/trademark individual belum diaudit menyeluruh.

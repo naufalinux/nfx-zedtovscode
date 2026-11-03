@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: GPL-3.0-or-later
+# Copyright (c) 2026 Naufalinux
 """Offline tests: run only in isolated temporary directories."""
 import importlib.util
 import json
